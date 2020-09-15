@@ -249,6 +249,7 @@ F1 = "fx(v,g(h(x,2,z(9999)),K),M)."
 F2 = "fx(B,g(h(Y,n,m(P)),K),1)."
 
 print("write function :\n")
+print("version 1.0")
 #s = str(input())
 
 #result = Automate(0,f2)
