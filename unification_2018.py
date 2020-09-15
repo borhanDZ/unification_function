@@ -252,8 +252,6 @@ print("write function :\n")
 print("version 1.0")
 #s = str(input())
 
-#result = Automate(0,f2)
-
 #print("------> ",result," <-------")
 print("sesie first function :")
 g1= str(input())
