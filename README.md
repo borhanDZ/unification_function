@@ -3,7 +3,7 @@ this programm it made to learn the important uses of data structur on developeme
 we focus on list `[]` how manuplate and you will see the profit of using lists in programming and how much we need them during
 build an application.
 
-# Susbstitution and Sniffication
+# Susbstitution and Uniffication
 
 the unification of two terms **T** and **T'** with variables ***x1, x2, .... xn*** consists in finding a substitution of these
 variables by terms ***u1, u2, .... un*** one such as the application
