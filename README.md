@@ -13,6 +13,8 @@ of this substitution makes the terms **T** and **T'** equal.
   replacing each occurrence of **xi** by **ui** in **T**.
 - Two formulas are unified, if there is a substitution **O** such that **TO** = **T’O**. 
  and **O** it call to unify **T** and **T’**
+>### important note
+> *what signify '**term**': term= function/{f(a,..,g(z)),...,heq(55,V)} **or** variable:{A,B,C,...,Z} **or** constant:{Numbers{1,2,...,n}/ words{ab,abc,...,e,d,...,bc..n}}*
 ## Unification of two predicates:
 Let ***P1(t1, t2, ......,tn)*** and ***P2(t1’, t2’, .........,tm’)***
 If ***(P1 ≠ P2)*** or ***(P1 = P2 and n ≠ m)*** then the unification is impossible
