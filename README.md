@@ -1,4 +1,4 @@
-                                               [unify1](screeshot/unify1.png)
+[unify1](screenshot/unify1.png)
 #### Overview
 this programm it made to learn the important uses of data structur on developement cycle when you go to make your application
 we focus on list `[]` how manuplate and you will see the profit of using lists in programming and how much we need them during
