@@ -26,10 +26,11 @@ in this section we're going to express and show **rules** exactly 4 rules which 
 - **rule 2:** delete operations of the form **x = x**.
 - **rule 3:** Let say **t’= t’’** which **t’** and **t’’** are not variables, if the functions of **t'** and **t''** are not the same then unification is impossible. 
 
-         ``` otherwise replace the equation f(x1’, x2’,..., xn’) = f(x1’’, x2’’,..., xn’')
+            ` otherwise replace the equation f(x1’, x2’,..., xn’) = f(x1’’, x2’’,..., xn’')
          
                                           with the equations x1’ = x1’’
                                                              x2’ = x2’’
                                                              ........
-                                                             xn’ = xn’’```
+                                                             xn’ = xn’’`
                                
+   
