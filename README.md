@@ -20,3 +20,16 @@ Let ***P1(t1, t2, ......,tn)*** and ***P2(t1’, t2’, .........,tm’)***
 If ***(P1 ≠ P2)*** or ***(P1 = P2 and n ≠ m)*** then the unification is impossible
 otherwise if **P1 = P2** and **n = m** then unification will be possible if we
 can unify the terms **ti** and **ti’** 2 to 2.
+## Unification Algorithme
+in this section we're going to express and show **rules** exactly 4 rules which those rules represent the principal part of our program the unification algorithm.
+- **rule 1:** Convert **t = x** to **x = t** if **x** is a variable and **t** is not a variable.
+- **rule 2:** delete operations of the form **x = x**.
+- **rule 3:** Let say **t’= t’’** which **t’** and **t’’** are not variables, if the functions of **t'** and **t''** are not the same then unification is impossible. 
+
+         ``` otherwise replace the equation f(x1’, x2’,..., xn’) = f(x1’’, x2’’,..., xn’')
+         
+                                          with the equations x1’ = x1’’
+                                                             x2’ = x2’’
+                                                             ........
+                                                             xn’ = xn’’```
+                               
