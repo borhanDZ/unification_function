@@ -32,5 +32,5 @@ in this section we're going to express and show **rules** exactly 4 rules which 
                                                              x2’ = x2’’
                                                              ........
                                                              xn’ = xn’’```
-                               
+- **rule 4:** we have **x = t** be an equation such that **x** has another occurrence in the set of equations if **x** is in t then no unification possible otherwise transform all the equations by replacing all the **x** by **t**.                                                          
    
