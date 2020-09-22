@@ -33,4 +33,41 @@ in this section we're going to express and show **rules** exactly 4 rules which 
                                                              ........
                                                              xn’ = xn’’```
 - **rule 4:** we have **x = t** be an equation such that **x** has another occurrence in the set of equations if **x** is in t then no unification possible otherwise transform all the equations by replacing all the **x** by **t**.                                                          
-   
+### Théorème 
+- if unification algorithm ends in failure then there is no possible unification for all the equations.
+- if it is successful then the set of equations is in a solved form.
+### examples
+we have next two function 1) f(x,h(x),y,g(y)), 2)f(g(z),w,z,x) we're going to apply unification on 1 and  2.
+first, always start apply rule3
+```
+1/ apply rule3 : f(x, h(x),y,g(y)) = f(g(z),w,z,x) # note the two function has same name **f** and same number of parameter equal 4.
+         x = g(z)
+         h(x) = w
+         y = z
+         g(y) = x
+ 2/ apply rule1 : 
+         x = g(z)
+   ----* w = h(x) 
+         y = z
+   ----* x = g(y) 
+ 3/ apply rule4 : change x on all equation with g(z).
+         x = g(z)
+   ----* w = h(g(z)) 
+         y = z
+   ----* g(z) = g(y) 
+ 4/ apply rule3 : g(z) = g(y)
+         x = g(z)
+         w = h(g(z)) 
+         y = z
+   ----* z = y
+5/ apply rule4 : change z with y
+         x = g(z)
+         w = h(g(z)) 
+         y = z
+   ----* y = y
+6/ apply rule2 : delete y = y
+         x = g(z)
+         w = h(g(z)) 
+         y = z
+possible unification the substitution O = {x/g(z),  y/z,  w/h(g(z))}.
+```
