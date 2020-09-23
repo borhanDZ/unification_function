@@ -1,8 +1,7 @@
 ![unify1](screenshot/unify1.png)                                          
 #### Overview
 this programm it made to learn the important uses of data structur on developement cycle when you go to make your application
-we focus on list `[]` how manuplate and you will see the profit of using lists in programming and how much we need them during
-build an application.
+we focus on list `[]` and string (without using regex code) how manuplate, also will give you a strong knowlodge about use them and see the profit of using lists in programming and how much we need them during build an application.
 
 # Susbstitution and Uniffication
 
@@ -70,7 +69,7 @@ first, always start apply rule3 and then apply rules until finish cases in apply
          x = g(z)
          w = h(g(z)) 
          y = z
-possible unification the substitution O = {x/g(z),  y/z,  w/h(g(z))}.
+ the unification is possible, the substitution O = {x/g(z),  y/z,  w/h(g(z))}.
 ```
 
 ##### exm2:(with impossible unification)
@@ -123,3 +122,8 @@ impposible unification can't apply rule3 at f(Y) = h(k,5) not the same name or p
          S = Z
 impposible unification can't apply rule 4 again,cause infinite loop.
 ```
+this screen show excution f1 and f2 inside application also you can write any function or try excute f3,f4 
+![unify2](screenshot/unify_excu.png)
+
+I will make a video soon explain tips and triks of coding this application.
+
