@@ -91,7 +91,7 @@ class unif:
          i+=1
      return s
 
- #...Function get parameter of any input f function: f(x,y,g(k))----> variables = ['x','y','g(k)']
+ #...Function get parameter of any input f function: f(x,y,g(k))----> parameters = ['x','y','g(k)']
  def getParametre(self,f):
     f+='.'
     n1,n2,l,lst = 1,1,[],[]
