@@ -93,8 +93,9 @@ class unif:
 
  #...Function get parameter of any input f function: f(x,y,g(k))----> variables = ['x','y','g(k)']
  def getParametre(self,f):
-    i,bb,n1,n2,l,lst = 0,0,1,1,[],[]
-    cc = 0
+    f+='.'
+    n1,n2,l,lst = 1,1,[],[]
+    bb,cc = 0,0
     for i in range(len(f)):
         if f[i] == "(":
             bb+=1
@@ -106,9 +107,7 @@ class unif:
             k = i;l.append(k)
         elif f[i] == '.' and n2 == 1:
             q = f.index('.')-1;l.append(q);n2=0
-        i+=1
 
-    i = 0
     while len(l) != 1:
         par = f[l.pop(0)+1:l[0]]
         lst.append(par)
