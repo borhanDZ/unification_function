@@ -122,7 +122,8 @@ impposible unification can't apply rule3 at f(Y) = h(k,5) not the same name or p
          S = Z
 impposible unification can't apply rule 4 again,cause infinite loop.
 ```
-this screen show excution f1 and f2 inside application also you can write any function or try excute f3,f4                                                              
+this screen show excution f1 and f2 inside application also you can write any function or try excute f3,f4
+
 ![unify2](screenshot/unify_excu.png)
 
 I will make a video soon explain tips and triks of coding this application.
