@@ -150,7 +150,7 @@ class unif:
       if self.getName(f1) == self.getName(f2):  # test f1 and f2 are they have same name
         self.lst1 = self.getParametre(f1)     # so same name!,then get parametre for them and put on 2 list
         self.lst2 = self.getParametre(f2)     #------------!,
-        if len(self.lst1) == len(self.lst2) : # test f1 and f2 are they same nomber of parameter
+        if len(self.lst1) == len(self.lst2) : # test f1 and f2 are they same number of parameter
           if self.j==1:
             print("\033[1;36;40m*/*/*/ apply R3 :\033[0m")
             print ("\033[1;32;48m[*] extract parameter from:",f1,"=",f2,"\033[0m")
@@ -210,8 +210,8 @@ class unif:
         else:
             print("------> ",self.l10[i],"=",self.l20[i])
         i+=1
-    TT = ' | '.join(str(x) for x in TT)
-    print("elements removed ",TT)
+    TTT = '|'.join(str(x) for x in TT)
+    print("elements removed ",TTT)
     for x in TT:
         print("\033[1;32;48m------> [*] Remove",x,"=",x,)
         print("\n\033[1;33;40m---------------------------------------\033[0m")
