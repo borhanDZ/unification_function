@@ -16,7 +16,8 @@ print("""\033[1;33;40m
    and we focus on list[](manipulating and diffirent list method...)\n\n
          \033[1;37;40m[+]---------\033[1;34;40mcoded by: \033[1;36;40m@borhan       \033[1;37;40m----------------------[+]
          [+]---------\033[1;34;40memail:    \033[1;36;40mborhan14041995@yahoo.com\033[1;37;40m -----------[+]
-         [+]---------\033[1;34;40mrepo:     \033[1;36;49mhttps://www.github.com/borhanDZ \033[1;37;40m----[+] \033[40m \n
+         [+]---------\033[1;34;40mrepo:     \033[1;36;49mhttps://www.github.com/borhanDZ \033[1;37;40m----[+]
+         [+]---------\033[1;34;40mversion:  \033[1;36;40m1.2\033[1;37;40m                      -----------[+] \033[40m \n
                            \033[1;32;40m+-+-+-+-+-+-+-+-+-+-+-+
                            |u|n|i|f|i|c|a|t|i|o|n|
                            +-+-+-+-+-+-+-+-+-+-+-+
@@ -53,12 +54,11 @@ def main():
   while True:
     print("\033[1;37;40myou can chose to enter one of \033[0;32;40mf1/f2/f3/f4...\033[0m\033[1;37;40mor enter your own function\n")
     print("\033[1;37;40mif you want to exit The programme press \033[0;32;40m'q'\033[37;40m or \033[0;32;40m'Q'\n")
-    print("\033[1;36;40m[\033[1;31;40m*\033[1;36;40m]Sesie first function :")
+    print("\033[1;36;40m[\033[1;31;40m*\033[1;36;40m]Sesie first function :",end=" ")
     g1= str(input())
-    print("\n")
-    print("\033[1;36;40m[\033[1;31;40m*\033[1;36;40m]Sesie second function :")
+    print()
+    print("\033[1;36;40m[\033[1;31;40m*\033[1;36;40m]Sesie second function :",end=" ")
     g2= str(input())
-    print(sesie_func(g1,g2))
     g1,g2 = sesie_func(g1,g2)
     if (g1 or g2) == ('q' or 'Q'):
         break
