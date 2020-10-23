@@ -126,5 +126,5 @@ this screen show excution f1 and f2 inside application also you can write any fu
 
 ![unify2](screenshot/unify_excu.png)
 
-I will make a video soon explain tips and of coding this application.
+I will make a video soon explain tips of coding this application.
 
