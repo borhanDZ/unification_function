@@ -126,5 +126,5 @@ this screen show execution f1 and f2 inside application also you can write any f
 
 ![unify2](screenshot/unify_excu.png)
 
-best regard enjoy!
+best regards enjoy!
 
